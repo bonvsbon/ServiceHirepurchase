@@ -1,0 +1,9 @@
+D:\Work\API\ServiceHirepurchase\Services.Common\bin\Release\netstandard2.0\Services.Common.deps.json
+D:\Work\API\ServiceHirepurchase\Services.Common\bin\Release\netstandard2.0\Services.Common.dll
+D:\Work\API\ServiceHirepurchase\Services.Common\bin\Release\netstandard2.0\Services.Common.pdb
+D:\Work\API\ServiceHirepurchase\Services.Common\obj\Release\netstandard2.0\Services.Common.csprojAssemblyReference.cache
+D:\Work\API\ServiceHirepurchase\Services.Common\obj\Release\netstandard2.0\Services.Common.AssemblyInfoInputs.cache
+D:\Work\API\ServiceHirepurchase\Services.Common\obj\Release\netstandard2.0\Services.Common.AssemblyInfo.cs
+D:\Work\API\ServiceHirepurchase\Services.Common\obj\Release\netstandard2.0\Services.Common.csproj.CoreCompileInputs.cache
+D:\Work\API\ServiceHirepurchase\Services.Common\obj\Release\netstandard2.0\Services.Common.dll
+D:\Work\API\ServiceHirepurchase\Services.Common\obj\Release\netstandard2.0\Services.Common.pdb

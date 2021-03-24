@@ -1,0 +1,12 @@
+D:\Work\API\ServiceHirepurchase\Services.DalContext\bin\Debug\netstandard2.0\Services.DalContext.deps.json
+D:\Work\API\ServiceHirepurchase\Services.DalContext\bin\Debug\netstandard2.0\Services.DalContext.dll
+D:\Work\API\ServiceHirepurchase\Services.DalContext\bin\Debug\netstandard2.0\Services.DalContext.pdb
+D:\Work\API\ServiceHirepurchase\Services.DalContext\bin\Debug\netstandard2.0\Services.Common.dll
+D:\Work\API\ServiceHirepurchase\Services.DalContext\bin\Debug\netstandard2.0\Services.Common.pdb
+D:\Work\API\ServiceHirepurchase\Services.DalContext\obj\Debug\netstandard2.0\Services.DalContext.csprojAssemblyReference.cache
+D:\Work\API\ServiceHirepurchase\Services.DalContext\obj\Debug\netstandard2.0\Services.DalContext.AssemblyInfoInputs.cache
+D:\Work\API\ServiceHirepurchase\Services.DalContext\obj\Debug\netstandard2.0\Services.DalContext.AssemblyInfo.cs
+D:\Work\API\ServiceHirepurchase\Services.DalContext\obj\Debug\netstandard2.0\Services.DalContext.csproj.CoreCompileInputs.cache
+D:\Work\API\ServiceHirepurchase\Services.DalContext\obj\Debug\netstandard2.0\Services.DalContext.csproj.CopyComplete
+D:\Work\API\ServiceHirepurchase\Services.DalContext\obj\Debug\netstandard2.0\Services.DalContext.dll
+D:\Work\API\ServiceHirepurchase\Services.DalContext\obj\Debug\netstandard2.0\Services.DalContext.pdb
