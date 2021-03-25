@@ -8,7 +8,7 @@ D:\Work\API\ServiceHirepurchase\Services.BalContext\bin\Debug\netstandard2.0\Ser
 D:\Work\API\ServiceHirepurchase\Services.BalContext\obj\Debug\netstandard2.0\Services.BalContext.csprojAssemblyReference.cache
 D:\Work\API\ServiceHirepurchase\Services.BalContext\obj\Debug\netstandard2.0\Services.BalContext.AssemblyInfoInputs.cache
 D:\Work\API\ServiceHirepurchase\Services.BalContext\obj\Debug\netstandard2.0\Services.BalContext.AssemblyInfo.cs
-D:\Work\API\ServiceHirepurchase\Services.BalContext\obj\Debug\netstandard2.0\Services.BalContext.csproj.CoreCompileInputs.cache
 D:\Work\API\ServiceHirepurchase\Services.BalContext\obj\Debug\netstandard2.0\Services.BalContext.csproj.CopyComplete
 D:\Work\API\ServiceHirepurchase\Services.BalContext\obj\Debug\netstandard2.0\Services.BalContext.dll
 D:\Work\API\ServiceHirepurchase\Services.BalContext\obj\Debug\netstandard2.0\Services.BalContext.pdb
+D:\Work\API\ServiceHirepurchase\Services.BalContext\obj\Debug\netstandard2.0\Services.BalContext.csproj.CoreCompileInputs.cache

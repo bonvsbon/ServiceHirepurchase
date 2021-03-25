@@ -30,7 +30,7 @@ namespace Services.Api.Controllers
         {
             _state = config.Value;
             _func = new Functional();
-            _file = new FilesModel(config);
+            _file = new FileManagement(config);
         }
 
         [HttpPost]
@@ -101,6 +101,7 @@ namespace Services.Api.Controllers
                         CallTime : callTime,
                         CreateBy : "0941610031"
                     );
+
             }
 
 

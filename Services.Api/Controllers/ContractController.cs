@@ -10,6 +10,7 @@ using static Services.Common.Models.appSetting;
 using Microsoft.Extensions.Options;
 using Services.Common.Models.Data;
 using Services.Common;
+using Microsoft.Owin.Security;
 
 namespace Services.Api.Controllers
 {
@@ -28,7 +29,7 @@ namespace Services.Api.Controllers
             _reqModel = new RequestDataModel();
         }
 
-        [HttpGet("{AgreementNo}")]
+        [HttpGet("")]
         public string Index(string AgreementNo)
         {
             return _info.REST_CustomerInformation(AgreementNo);
@@ -39,6 +40,5 @@ namespace Services.Api.Controllers
         {
             return _info.REST_CustomerInformation(_request._data.AgreementNo);
         }
-
     }
 }
