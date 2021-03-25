@@ -25,7 +25,7 @@ namespace Services.DalContext.Models.Data
         }
 
 
-        public string REST_InsertFilelog()
+        public string REST_InsertFilelog(string FileName, string OriginalFile, long fileSize, string PhoneNumber, string CallDate, string CallTime, string CreateBy)
         {
             _statement.AppendStatement("EXEC REST_InsertFilelog ");
             _statement.AppendParameter("@Test", 0);

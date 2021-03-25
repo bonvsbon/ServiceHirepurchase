@@ -95,6 +95,10 @@ namespace Services.Common
             return this.result;
         }
 
+        public FileInfo GetFileInformation(string filename)
+        {
+            return new FileInfo(filename);
+        }
 
 
         #endregion

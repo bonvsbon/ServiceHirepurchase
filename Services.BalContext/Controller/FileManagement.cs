@@ -23,9 +23,9 @@ namespace Services.BalContext.Controller
             _resAccess = new ResultAccess(configs);
         }
 
-        public string REST_InsertFileLog()
+        public string REST_InsertFileLog(string FileName, string OriginalFile, long fileSize, string PhoneNumber, string CallDate, string CallTime, string CreateBy)
         {
-            _file.REST_InsertFilelog();
+            _file.REST_InsertFilelog(FileName, OriginalFile, fileSize, PhoneNumber, CallDate, CallTime, CreateBy);
             return "";
         }
 

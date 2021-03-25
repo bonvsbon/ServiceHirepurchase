@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Services.BalContext.Controller;
 using Services.Common;
 using Services.Common.Models.Data;
 using Services.DalContext.Models.Data;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -22,7 +24,7 @@ namespace Services.Api.Controllers
     {
         StateConfigs _state = new StateConfigs();
         Functional _func;
-        FilesModel _file;
+        FileManagement _file;
         private bool result;
         public FileController(IOptions<StateConfigs> config)
         {
@@ -38,6 +40,11 @@ namespace Services.Api.Controllers
             string savePath = "";
             string localPath = "";
             string targetDirectory = "";
+            string fileInput = "";
+            string callDate = "";
+            string callTime = "";
+            FileInfo info;
+            List<string> fileformat = new List<string>();
 
             foreach (IFormFile file in files)
             { 
@@ -69,7 +76,31 @@ namespace Services.Api.Controllers
                 }
 
                 _func.DestroyFileFromName(targetDirectory, fileName);
-                _file.REST_InsertFilelog();
+                info = _func.GetFileInformation(fileName);
+                // Log File for Other Process
+                fileformat = fileName.Split('_').ToList();
+
+                fileInput = string.Format("{0}_{1}{2}", fileformat[1], fileformat[2], info.Extension);
+
+                callDate = DateTime.ParseExact(fileformat[1], "yyMMdd", new CultureInfo("en-US")).ToString("yyyy-MM-dd");
+                callTime = string.Format(
+                    "{0}:{1}:{2}",
+                    string.Concat(fileformat[2][0], fileformat[2][1]),
+                    string.Concat(fileformat[2][2], fileformat[2][3]),
+                    string.Concat(fileformat[2][4], fileformat[2][5])
+                    );
+
+
+
+                _file.REST_InsertFileLog(
+                        FileName : fileInput,
+                        OriginalFile : fileName,
+                        fileSize : info.Length,
+                        PhoneNumber : "0941610031",
+                        CallDate : callDate,
+                        CallTime : callTime,
+                        CreateBy : "0941610031"
+                    );
             }
 
 
